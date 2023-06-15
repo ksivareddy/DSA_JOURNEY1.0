@@ -1,0 +1,7 @@
+# Exclude hidden files
+.vscode*
+# Exclude build output files
+/bin/
+/lib/
+
+
