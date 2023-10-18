@@ -1,3 +1,5 @@
+package First_Java_Problems;
+
 // 8. To find out whether the given String is Palindrome or not.
 import java.util.*;
 

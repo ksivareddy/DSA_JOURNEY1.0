@@ -1,13 +1,18 @@
-// 4. Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
+package First_Java_Problems;
 
+// 4. Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
 import java.util.*;
 public class Four {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in); 
-    int n1 = sc.nextInt(); 
-    int n2 = sc.nextInt();
-    String s  = sc.next();
-    if ("+".equals(s)){
+    int m = sc.nextInt(); 
+    int n = sc.nextInt();
+    String o  = sc.next();
+    Calculator(m, n, o);
+    sc.close(); 
+    }
+    public static void Calculator(int n1 , int n2, String s ){
+ if ("+".equals(s)){
         System.out.println( n1 + n2);
     } else if ("-".equals(s)){
         System.out.println( n1 - n2);
@@ -26,6 +31,5 @@ public class Four {
         System.exit(0);
     }
     
-    sc.close(); 
     }
 }

@@ -1,3 +1,5 @@
+package First_Java_Problems;
+
 // To find Armstrong Number between two given number.
 import java.util.Scanner;
 public class Nine {

@@ -1,3 +1,5 @@
+package First_Java_Problems;
+
 // To find Armstrong Numbers in a given range.
 public class NineP2 {
     public static void main(String[] args) {

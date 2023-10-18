@@ -6,9 +6,12 @@ public class Area_Of_Equilateral_Triangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double a = sc.nextDouble();
-        double Area_Of_Equilateral_Triangle = (Math.sqrt(3) / 4) * Math.pow(a, 2);
+        double Area_Of_Equilateral_Triangle = area(a);
         System.out.println("Area Of Equilateral Triangle: " + Area_Of_Equilateral_Triangle);
         sc.close();
+    }
+    public static double area(double a){
+     return (Math.sqrt(3) / 4) * Math.pow(a, 2);
     }
 }
 

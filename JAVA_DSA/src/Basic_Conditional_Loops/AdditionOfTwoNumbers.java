@@ -7,10 +7,11 @@ public class AdditionOfTwoNumbers {
         Scanner sc = new Scanner(System.in);
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
-        int sum = num1 + num2;
-
-        System.out.println("Sum: " + sum);
-
+        int s  = add(num1, num2);
+        System.out.println("Sum: " + s);
         sc.close();
+    }
+    public static int add(int a , int b){
+       return a + b;
     }
 }
